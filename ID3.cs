@@ -36,7 +36,7 @@ namespace Exercise_2_1 {
 
             //start a watch
             var watch = System.Diagnostics.Stopwatch.StartNew();
-            // After the algorithm has been created, we can classify a new instance:
+            //traverse the validation set, for each letter
             for (int list_counter = 0; list_counter < validation_set.Count; list_counter++) {
                 
                 //add the new integers to an array
